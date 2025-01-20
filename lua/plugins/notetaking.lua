@@ -4,7 +4,7 @@ return {
 		opts = {
 			{
 				name = "wiki",
-				path = "C:/Users/percle31055/wiki"
+				path = "wiki"
 			},
 		},
 		keys = {
