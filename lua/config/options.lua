@@ -1,11 +1,9 @@
-
-
 -- general
 vim.cmd[[colorscheme no-clown-fiesta]]
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.cursorline = true
-vim.opt.cursorlineopt = "number" -- highlights line number instead of whole line
+-- vim.opt.cursorlineopt = "number" -- highlights line number instead of whole line
 vim.opt.ruler = false
 
 -- window
@@ -14,7 +12,7 @@ vim.opt.splitbelow = true
 vim.opt.title = true
 
 -- movement
-vim.opt.scrolloff = 999
+vim.opt.scrolloff = 20
 vim.opt.sidescrolloff = 60
 vim.opt.smoothscroll = true
 
@@ -24,6 +22,7 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = false
 vim.opt.autoindent = true
 vim.opt.smartindent = true
+vim.opt.listchars = { tab='  ' }
 
 -- search
 vim.opt.ignorecase = true
